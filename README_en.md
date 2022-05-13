@@ -20,6 +20,10 @@
 ## <a id="Overview"></a>Overview
 This project integrates metube yt-dlp web frontend, Aria2 + WebUI, Rclone + WebUI with auto-upload function, customizable portal page, Filebrowser, ttyd web terminal, Xray Vmess proxy protocol.
 
+[VPS version](https://github.com/wy580477/Aria2-AIO-Container)
+
+[qBittorrent version](https://github.com/wy580477/qBit-to-Rclone-on-Heroku)
+
 ![image](https://user-images.githubusercontent.com/98247050/165098261-7290ff50-ec0f-47ac-b8ec-7fe09f468a0e.png)
 
  1. Rclone auto-upload function only needs to prepare rclone.conf file, and all other configurations are set to go.
@@ -33,7 +37,7 @@ This project integrates metube yt-dlp web frontend, Aria2 + WebUI, Rclone + WebU
 
 ## <a id="Deployment"></a>Deployment
 
- **Do not deploy directly this repository**  
+ **Do not deploy directly from this repository**  
  
  1. Fork this this repository.
  2. Click Setting on fork repository page and check Template repository.

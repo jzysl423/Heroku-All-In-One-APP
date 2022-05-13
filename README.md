@@ -26,6 +26,10 @@
 ## 概述
 本项目集成了Metube yt-dlp Web前端、Aria2+Rclone+WebUI、Aria2+Rclone联动自动上传功能、Rclone远程存储文件列表、可自定义的导航页、Filebrowser轻量网盘、ttyd Web终端、Xray Vmess协议。
 
+[VPS部署版本](https://github.com/wy580477/Aria2-AIO-Container)
+
+[qBittorrent版本](https://github.com/wy580477/qBit-to-Rclone-on-Heroku)
+
 ![image](https://user-images.githubusercontent.com/98247050/165098261-7290ff50-ec0f-47ac-b8ec-7fe09f468a0e.png)
 
  1. 联动上传功能只需要准备rclone.conf配置文件, 其他一切配置都预备齐全。
@@ -42,7 +46,7 @@
  
   **Heroku修复安全漏洞中，目前无法通过网页从私有库部署**  
  
- 1. 点击右上角Fork，再点击Creat Fork。
+ 1. 点击右上角Fork，再点击Create Fork。
  2. 在Fork出来的仓库页面上点击Setting，勾选Template repository。
  3. 然后点击Code返回之前的页面，点Setting下面新出现的按钮Use this template，起个随机名字创建新库。
  4. 比如你的Github用户名是bobby，新库名称是green。浏览器登陆heroku后，访问https://dashboard.heroku.com/new?template=https://github.com/bobby/green 即可部署。
